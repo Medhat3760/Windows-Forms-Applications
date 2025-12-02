@@ -46,5 +46,27 @@ namespace MyFirstWinFormsProject
             Form frmChkBoxGroup = new frmChkRadioGroup();
             frmChkBoxGroup.ShowDialog();
         }
+
+        private void btnMoreAboutTextBox_Click(object sender, EventArgs e)
+        {
+
+            Form frmTextBox = new frmTextBox();
+            frmTextBox.ShowDialog();
+
+        }
+
+        private void btnShowPicBox_Click(object sender, EventArgs e)
+        {
+
+            Form frmPictureBox = new frmPictureBox();
+            frmPictureBox.ShowDialog();
+
+        }
+
+        private void btnFormPaint_Click(object sender, EventArgs e)
+        {
+            Form frmPainting = new frmPainting();
+            frmPainting.Show();
+        }
     }
 }

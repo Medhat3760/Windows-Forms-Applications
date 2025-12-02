@@ -12,3 +12,6 @@ D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWi
 D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWinFormsProject.frmMain.resources
 D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWinFormsProject.frmMessageBox.resources
 D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWinFormsProject.frmChkRadioGroup.resources
+D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWinFormsProject.frmTextBox.resources
+D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWinFormsProject.frmPictureBox.resources
+D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWinFormsProject.frmPainting.resources

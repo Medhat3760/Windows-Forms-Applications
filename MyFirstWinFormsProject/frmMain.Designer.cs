@@ -35,6 +35,8 @@
             this.btnMoreAboutTextBox = new System.Windows.Forms.Button();
             this.btnShowPicBox = new System.Windows.Forms.Button();
             this.btnFormPaint = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnShowForm1
@@ -69,7 +71,7 @@
             // 
             // btnCheckBoxForm
             // 
-            this.btnCheckBoxForm.Location = new System.Drawing.Point(388, 222);
+            this.btnCheckBoxForm.Location = new System.Drawing.Point(388, 227);
             this.btnCheckBoxForm.Name = "btnCheckBoxForm";
             this.btnCheckBoxForm.Size = new System.Drawing.Size(211, 82);
             this.btnCheckBoxForm.TabIndex = 3;
@@ -107,11 +109,33 @@
             this.btnFormPaint.UseVisualStyleBackColor = true;
             this.btnFormPaint.Click += new System.EventHandler(this.btnFormPaint_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(715, 227);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(211, 82);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Masked Text Box";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(715, 353);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(211, 82);
+            this.button3.TabIndex = 8;
+            this.button3.Text = "Combo Box";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1053, 593);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnFormPaint);
             this.Controls.Add(this.btnShowPicBox);
             this.Controls.Add(this.btnMoreAboutTextBox);
@@ -134,5 +158,7 @@
         private System.Windows.Forms.Button btnMoreAboutTextBox;
         private System.Windows.Forms.Button btnShowPicBox;
         private System.Windows.Forms.Button btnFormPaint;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button3;
     }
 }

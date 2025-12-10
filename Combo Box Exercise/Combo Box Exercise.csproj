@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4D792332-32A5-49DB-B907-61F4E15D0D64}</ProjectGuid>
+    <ProjectGuid>{EE85047E-AD16-4833-9EBB-D42CD56FF888}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>MyFirstWinFormsProject</RootNamespace>
-    <AssemblyName>MyFirstWinFormsProject</AssemblyName>
+    <RootNamespace>Combo_Box_Exercise</RootNamespace>
+    <AssemblyName>Combo Box Exercise</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -55,82 +55,10 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmChkRadioGroup.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmChkRadioGroup.Designer.cs">
-      <DependentUpon>frmChkRadioGroup.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmComboBox.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmComboBox.Designer.cs">
-      <DependentUpon>frmComboBox.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmMain.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmMain.Designer.cs">
-      <DependentUpon>frmMain.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmMaskedTextBox.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmMaskedTextBox.Designer.cs">
-      <DependentUpon>frmMaskedTextBox.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmMessageBox.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmMessageBox.Designer.cs">
-      <DependentUpon>frmMessageBox.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmPainting.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmPainting.Designer.cs">
-      <DependentUpon>frmPainting.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmPictureBox.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmPictureBox.Designer.cs">
-      <DependentUpon>frmPictureBox.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmTextBox.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmTextBox.Designer.cs">
-      <DependentUpon>frmTextBox.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmChkRadioGroup.resx">
-      <DependentUpon>frmChkRadioGroup.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmComboBox.resx">
-      <DependentUpon>frmComboBox.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmMain.resx">
-      <DependentUpon>frmMain.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmMaskedTextBox.resx">
-      <DependentUpon>frmMaskedTextBox.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmMessageBox.resx">
-      <DependentUpon>frmMessageBox.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmPainting.resx">
-      <DependentUpon>frmPainting.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmPictureBox.resx">
-      <DependentUpon>frmPictureBox.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmTextBox.resx">
-      <DependentUpon>frmTextBox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -157,10 +85,16 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Earth.jpg" />
+    <None Include="Resources\Book.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Moon.jpg" />
+    <None Include="Resources\Boy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Girl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pen.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -15,3 +15,5 @@ D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWi
 D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWinFormsProject.frmTextBox.resources
 D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWinFormsProject.frmPictureBox.resources
 D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWinFormsProject.frmPainting.resources
+D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWinFormsProject.frmMaskedTextBox.resources
+D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWinFormsProject.frmComboBox.resources

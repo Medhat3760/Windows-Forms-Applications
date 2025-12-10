@@ -1,0 +1,11 @@
+D:\Programs Files\C# Level 1\Projects\Combo Box Exercise\bin\Debug\Combo Box Exercise.exe.config
+D:\Programs Files\C# Level 1\Projects\Combo Box Exercise\bin\Debug\Combo Box Exercise.exe
+D:\Programs Files\C# Level 1\Projects\Combo Box Exercise\bin\Debug\Combo Box Exercise.pdb
+D:\Programs Files\C# Level 1\Projects\Combo Box Exercise\obj\Debug\Combo Box Exercise.csproj.AssemblyReference.cache
+D:\Programs Files\C# Level 1\Projects\Combo Box Exercise\obj\Debug\Combo Box Exercise.csproj.SuggestedBindingRedirects.cache
+D:\Programs Files\C# Level 1\Projects\Combo Box Exercise\obj\Debug\Combo_Box_Exercise.Form1.resources
+D:\Programs Files\C# Level 1\Projects\Combo Box Exercise\obj\Debug\Combo_Box_Exercise.Properties.Resources.resources
+D:\Programs Files\C# Level 1\Projects\Combo Box Exercise\obj\Debug\Combo Box Exercise.csproj.GenerateResource.cache
+D:\Programs Files\C# Level 1\Projects\Combo Box Exercise\obj\Debug\Combo Box Exercise.csproj.CoreCompileInputs.cache
+D:\Programs Files\C# Level 1\Projects\Combo Box Exercise\obj\Debug\Combo Box Exercise.exe
+D:\Programs Files\C# Level 1\Projects\Combo Box Exercise\obj\Debug\Combo Box Exercise.pdb

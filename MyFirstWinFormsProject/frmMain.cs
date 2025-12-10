@@ -68,5 +68,21 @@ namespace MyFirstWinFormsProject
             Form frmPainting = new frmPainting();
             frmPainting.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            Form frmMaskedTextBox = new frmMaskedTextBox();
+            frmMaskedTextBox.Show();
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+            Form frmComboBox = new frmComboBox();
+            frmComboBox.Show();
+
+        }
     }
 }

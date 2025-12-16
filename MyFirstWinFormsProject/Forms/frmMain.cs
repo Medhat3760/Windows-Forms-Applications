@@ -7,14 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MyFirstWinFormsProject.Forms;
 
 namespace MyFirstWinFormsProject
 {
     public partial class frmMain : Form
     {
         public frmMain()
-        {
-            InitializeComponent();
+        {          
+            InitializeComponent();         
         }
 
         private void btnShowForm1_Click(object sender, EventArgs e)
@@ -82,6 +83,58 @@ namespace MyFirstWinFormsProject
 
             Form frmComboBox = new frmComboBox();
             frmComboBox.Show();
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form frmLinkLabel = new frmLinkLabel();
+            frmLinkLabel.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+            Form frmCheckedListBox = new frmCheckedListBox();
+            frmCheckedListBox.Show();
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+            Form frmDateTimePicker = new frmDateTimePicker();
+            frmDateTimePicker.Show();
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+            Form frmMonthCalender = new frmMonthCalender();
+            frmMonthCalender.Show();
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+
+            Form frmTimer = new frmTimer(); 
+            frmTimer.Show();
+
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+
+            Form frmNotifyIcon = new frmNotifyIcon();
+
+            frmNotifyIcon.Show();
+
+        }
+
+        private void frmMain_Load(object sender, EventArgs e)
+        {
 
         }
     }

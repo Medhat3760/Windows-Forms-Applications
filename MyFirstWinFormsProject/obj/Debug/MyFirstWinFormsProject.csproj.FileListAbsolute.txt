@@ -17,3 +17,9 @@ D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWi
 D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWinFormsProject.frmPainting.resources
 D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWinFormsProject.frmMaskedTextBox.resources
 D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWinFormsProject.frmComboBox.resources
+D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWinFormsProject.Forms.frmLinkLabel.resources
+D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWinFormsProject.Forms.frmCheckedListBox.resources
+D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWinFormsProject.Forms.frmDateTimePicker.resources
+D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWinFormsProject.Forms.frmMonthCalender.resources
+D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWinFormsProject.Forms.frmTimer.resources
+D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWinFormsProject.Forms.frmNotifyIcon.resources

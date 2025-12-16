@@ -37,6 +37,12 @@
             this.btnFormPaint = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnShowForm1
@@ -129,11 +135,77 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(61, 485);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(211, 82);
+            this.button4.TabIndex = 9;
+            this.button4.Text = "Link Label";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(388, 485);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(211, 82);
+            this.button5.TabIndex = 10;
+            this.button5.Text = "Checked List Box";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(715, 485);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(211, 82);
+            this.button6.TabIndex = 11;
+            this.button6.Text = "Date Time Picker";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(1037, 101);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(211, 82);
+            this.button7.TabIndex = 12;
+            this.button7.Text = "Month Calender";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(1037, 227);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(211, 82);
+            this.button8.TabIndex = 13;
+            this.button8.Text = "Timer";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(1037, 353);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(211, 82);
+            this.button9.TabIndex = 14;
+            this.button9.Text = "Notify Icon";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1053, 593);
+            this.ClientSize = new System.Drawing.Size(1301, 673);
+            this.Controls.Add(this.button9);
+            this.Controls.Add(this.button8);
+            this.Controls.Add(this.button7);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnFormPaint);
@@ -145,6 +217,7 @@
             this.Controls.Add(this.btnShowForm1);
             this.Name = "frmMain";
             this.Text = "Main Form";
+            this.Load += new System.EventHandler(this.frmMain_Load);
             this.ResumeLayout(false);
 
         }
@@ -160,5 +233,11 @@
         private System.Windows.Forms.Button btnFormPaint;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
     }
 }

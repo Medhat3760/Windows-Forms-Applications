@@ -92,7 +92,7 @@ namespace Pizza_Project
 
         float CalculateTotalPrice()
         {
-            return GetSelectedSizePrice() + GetSelectedToppingsPrice() + GetSelectedCrustPrice();
+            return (GetSelectedSizePrice() + GetSelectedToppingsPrice() + GetSelectedCrustPrice())* (float)numericQuantity.Value;
         }
 
         void UpdateTotalPrice()
@@ -359,12 +359,24 @@ namespace Pizza_Project
             //Reset Order Button
             btnOrderPizza.Enabled = true;
 
+            //Reset numericUpDown Quantity
+            numericQuantity.Value= 0;
+
         }
 
         private void btnReset_Click(object sender, EventArgs e)
         {
 
             ResetForm();
+
+        }
+
+        void UpdateQuantity()
+        {
+
+            UpdateTotalPrice();
+
+            lblQuantity.Text = numericQuantity.Value.ToString();
 
         }
 
@@ -375,6 +387,7 @@ namespace Pizza_Project
             UpdateToppings();
             UpdateCrust();
             UpdateWhereToEat();
+            UpdateQuantity();
             UpdateTotalPrice(); 
 
         }
@@ -386,5 +399,11 @@ namespace Pizza_Project
 
         }
 
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+
+             UpdateQuantity();
+
+        }
     }
 }

@@ -23,3 +23,10 @@ D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWi
 D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWinFormsProject.Forms.frmMonthCalender.resources
 D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWinFormsProject.Forms.frmTimer.resources
 D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWinFormsProject.Forms.frmNotifyIcon.resources
+D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWinFormsProject.Forms.frmImageList.resources
+D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWinFormsProject.Forms.frmProgressBar.resources
+D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWinFormsProject.Forms.frmListView.resources
+D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWinFormsProject.Forms.frmErrorProvider.resources
+D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWinFormsProject.Forms.frmTrackBar.resources
+D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWinFormsProject.Forms.frmNumericUpDown.resources
+D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWinFormsProject.Forms.frmTabControl.resources

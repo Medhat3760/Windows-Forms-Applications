@@ -60,11 +60,16 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lblSize = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.numericQuantity = new System.Windows.Forms.NumericUpDown();
+            this.label9 = new System.Windows.Forms.Label();
+            this.lblQuantity = new System.Windows.Forms.Label();
             this.gbSize.SuspendLayout();
             this.gbCrustType.SuspendLayout();
             this.gbToppings.SuspendLayout();
             this.gbWhereToEat.SuspendLayout();
             this.groupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericQuantity)).BeginInit();
             this.SuspendLayout();
             // 
             // gbSize
@@ -257,7 +262,7 @@
             // 
             this.gbWhereToEat.Controls.Add(this.rbTakeOut);
             this.gbWhereToEat.Controls.Add(this.rbEatIn);
-            this.gbWhereToEat.Location = new System.Drawing.Point(444, 460);
+            this.gbWhereToEat.Location = new System.Drawing.Point(444, 425);
             this.gbWhereToEat.Name = "gbWhereToEat";
             this.gbWhereToEat.Size = new System.Drawing.Size(412, 100);
             this.gbWhereToEat.TabIndex = 7;
@@ -311,6 +316,8 @@
             // 
             // groupBox5
             // 
+            this.groupBox5.Controls.Add(this.lblQuantity);
+            this.groupBox5.Controls.Add(this.label20);
             this.groupBox5.Controls.Add(this.lblTotalPrice);
             this.groupBox5.Controls.Add(this.label7);
             this.groupBox5.Controls.Add(this.lblWhereToEat);
@@ -334,7 +341,7 @@
             this.lblTotalPrice.AutoSize = true;
             this.lblTotalPrice.Font = new System.Drawing.Font("Stencil", 28F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotalPrice.ForeColor = System.Drawing.Color.Green;
-            this.lblTotalPrice.Location = new System.Drawing.Point(150, 424);
+            this.lblTotalPrice.Location = new System.Drawing.Point(161, 426);
             this.lblTotalPrice.Name = "lblTotalPrice";
             this.lblTotalPrice.Size = new System.Drawing.Size(61, 67);
             this.lblTotalPrice.TabIndex = 11;
@@ -344,7 +351,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(36, 398);
+            this.label7.Location = new System.Drawing.Point(35, 408);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(109, 19);
             this.label7.TabIndex = 10;
@@ -353,11 +360,11 @@
             // lblWhereToEat
             // 
             this.lblWhereToEat.AutoSize = true;
-            this.lblWhereToEat.Location = new System.Drawing.Point(144, 353);
+            this.lblWhereToEat.Location = new System.Drawing.Point(169, 316);
             this.lblWhereToEat.Name = "lblWhereToEat";
-            this.lblWhereToEat.Size = new System.Drawing.Size(19, 19);
+            this.lblWhereToEat.Size = new System.Drawing.Size(49, 19);
             this.lblWhereToEat.TabIndex = 9;
-            this.lblWhereToEat.Text = "  ";
+            this.lblWhereToEat.Text = "Eat in";
             // 
             // label6
             // 
@@ -374,9 +381,9 @@
             this.lblCrustType.AutoSize = true;
             this.lblCrustType.Location = new System.Drawing.Point(150, 269);
             this.lblCrustType.Name = "lblCrustType";
-            this.lblCrustType.Size = new System.Drawing.Size(19, 19);
+            this.lblCrustType.Size = new System.Drawing.Size(83, 19);
             this.lblCrustType.TabIndex = 7;
-            this.lblCrustType.Text = "  ";
+            this.lblCrustType.Text = "Thin Crust";
             // 
             // label5
             // 
@@ -436,11 +443,51 @@
             this.lblSize.TabIndex = 2;
             this.lblSize.Text = "Medium";
             // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(36, 363);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(164, 19);
+            this.label20.TabIndex = 12;
+            this.label20.Text = "Quantity Required:";
+            // 
+            // numericQuantity
+            // 
+            this.numericQuantity.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numericQuantity.Location = new System.Drawing.Point(581, 551);
+            this.numericQuantity.Name = "numericQuantity";
+            this.numericQuantity.Size = new System.Drawing.Size(120, 29);
+            this.numericQuantity.TabIndex = 13;
+            this.numericQuantity.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(490, 555);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(85, 19);
+            this.label9.TabIndex = 13;
+            this.label9.Text = "Quantity:";
+            // 
+            // lblQuantity
+            // 
+            this.lblQuantity.AutoSize = true;
+            this.lblQuantity.Location = new System.Drawing.Point(218, 363);
+            this.lblQuantity.Name = "lblQuantity";
+            this.lblQuantity.Size = new System.Drawing.Size(18, 19);
+            this.lblQuantity.TabIndex = 13;
+            this.lblQuantity.Text = "0";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1391, 723);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.numericQuantity);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.btnOrderPizza);
@@ -462,6 +509,7 @@
             this.gbWhereToEat.PerformLayout();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericQuantity)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -501,6 +549,10 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label lblTotalPrice;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lblQuantity;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.NumericUpDown numericQuantity;
+        private System.Windows.Forms.Label label9;
     }
 }
 

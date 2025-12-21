@@ -133,8 +133,59 @@ namespace MyFirstWinFormsProject
 
         }
 
-        private void frmMain_Load(object sender, EventArgs e)
+        private void button10_Click(object sender, EventArgs e)
         {
+
+            Form frmImageList = new frmImageList();
+            frmImageList.Show();
+
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+
+            Form frmProgressBar = new frmProgressBar();
+            frmProgressBar.Show();
+
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+
+            Form frmListView = new frmListView();
+            frmListView.Show();
+
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+
+            Form frmErrorProvider = new frmErrorProvider();
+            frmErrorProvider.Show();
+
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+
+            Form frmTrackBar = new frmTrackBar();
+            frmTrackBar.Show();
+
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+
+            Form frmNumericUpDown = new frmNumericUpDown();
+            frmNumericUpDown.Show();
+
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+
+            Form frmTabControl = new frmTabControl();
+            frmTabControl.Show();
 
         }
     }

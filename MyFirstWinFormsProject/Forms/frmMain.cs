@@ -188,5 +188,22 @@ namespace MyFirstWinFormsProject
             frmTabControl.Show();
 
         }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+
+            Form frmGroupBoxVsPanel = new frmGroupBoxVsPanel();
+            frmGroupBoxVsPanel.Show();
+
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+
+            Form frmDaialogs = new frmDaialogs();
+            frmDaialogs.Show();
+
+        }
+
     }
 }

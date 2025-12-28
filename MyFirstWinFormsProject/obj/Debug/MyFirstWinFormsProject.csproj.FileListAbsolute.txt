@@ -30,3 +30,5 @@ D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWi
 D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWinFormsProject.Forms.frmTrackBar.resources
 D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWinFormsProject.Forms.frmNumericUpDown.resources
 D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWinFormsProject.Forms.frmTabControl.resources
+D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWinFormsProject.Forms.frmGroupBoxVsPanel.resources
+D:\Programs Files\C# Level 1\Projects\MyFirstWinFormsProject\obj\Debug\MyFirstWinFormsProject.Forms.frmDaialogs.resources
